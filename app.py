@@ -7,6 +7,12 @@ from keras.models import load_model
 
 import platform
 
+st.set_page_config(
+    page_title="Detección de Objetos en Tiempo Real",
+    page_icon="🤖",
+    layout="wide"
+)
+
 # Muestra la versión de Python junto con detalles adicionales
 st.write("Versión de Python:", platform.python_version())
 
